@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background-color: #686FFD;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.main {
+    height: 100px;
+    width: 300px;
+    background-color: #868BFD;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 99999px;
+    /* transition: 5s; */
+}
+
+.screen {
+    height: 100px;
+    width: 100px;
+    border-radius: 99999px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.395);
+    background-color: #FBFBFC;
+    color: #868BFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4rem;
+    font-weight: 900;
+    /* transform: translateX(180deg); */
+}
+
+button {
+    color: white;
+    background-color: inherit;
+    border: none;
+    font-size: 46px;
+    cursor: pointer;
+}
+
+.save {
+    background-color: #fff;
+    color: #868BFD;
+    padding: 1rem;
+    border-radius: 8px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.prevCount {
+    background-color: #fff;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    border-radius: 8px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #868BFD;
+    word-break: break-all;
+    overflow-x: scroll;
+}
